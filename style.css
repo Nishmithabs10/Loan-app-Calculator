@@ -1,0 +1,73 @@
+/* style.css */
+
+/* Body background color */
+body {
+    background-color: #37393b;
+}
+
+/* Card styles */
+.card {
+    background-color: #192b3c;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(45, 39, 39, 0.1);
+}
+
+/* Form heading style */
+.heading {
+    color: #0d0e0e; /* Dark gray color */
+    font-weight:bolder; /* Bold text */
+    font-style: oblique;
+    font-size: 3.5rem; /* Large font size */
+    text-align: center; /* Center align text */
+    padding-bottom: 20px; /* Space below the heading */
+    border-bottom: 2px solid #343a40; /* Bottom border for visual separation */
+    margin-bottom: 20px; /* Margin below the heading */
+}
+
+/* Form input styles */
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Input group styles */
+.input-group-text {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+}
+
+/* Button styles */
+.btn-block {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Button hover effect */
+.btn-block:hover {
+    background-color: #495057;
+}
+
+/* Results container styles */
+#results {
+    margin-top: 30px;
+}
+
+/* Result input styles */
+#results .form-control {
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 5px;
+    color: #495057;
+    font-weight: bold;
+}
+
+/* Loading spinner */
+#loading img {
+    width: 50px;
+    height: 50px;
+}
